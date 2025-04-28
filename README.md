@@ -1,2 +1,2 @@
-# algo
-This is an auto push repository for Baekjoon Online Judge created with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub).
+# Java로 코딩테스트 준비하기
+Java를 이용해 백준에서 코딩테스트 준비
