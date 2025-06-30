@@ -20,20 +20,16 @@ class Solution {
             graph.computeIfAbsent(to, k -> new ArrayList<>()).add(new Node(from, cost));
         }
 
-        return dijkstra(start_node, end_node, n);
-    }
-
-    public double dijkstra(int start, int end, int n){
         double[] distance = new double[n];
         Arrays.fill(distance, 0.0);
 
         PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> Double.compare(b.cost, a.cost));
-        pq.offer(new Node(start, 1.0));
-        distance[start] = 1.0;
+        pq.offer(new Node(start_node, 1.0));
+        distance[start_node] = 1.0;
 
         while(!pq.isEmpty()){
             Node curNode = pq.poll();
-            if (curNode.to == end) return curNode.cost;
+            if (curNode.to == end_node) return curNode.cost;
 
             for(Node nextNode : graph.getOrDefault(curNode.to, Collections.emptyList())){
                 double nextCost = nextNode.cost * curNode.cost;
@@ -43,6 +39,6 @@ class Solution {
                 }
             }
         }
-        return distance[end];
+        return 0.0;
     }
 }
