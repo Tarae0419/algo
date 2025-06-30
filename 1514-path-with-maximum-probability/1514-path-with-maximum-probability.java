@@ -1,16 +1,11 @@
 import java.util.*;
-class Node implements Comparable<Node>{
+class Node{
     int to;
     double cost;
     
     public Node(int to, double cost){
         this.to = to;
         this. cost = cost;
-    }
-
-    @Override
-    public int compareTo(Node other){
-        return Double.compare(other.cost, this.cost);
     }
 }
 class Solution {
@@ -32,7 +27,7 @@ class Solution {
         double[] distance = new double[n];
         Arrays.fill(distance, 0.0);
 
-        PriorityQueue<Node> pq = new PriorityQueue<>();
+        PriorityQueue<Node> pq = new PriorityQueue<>((a, b) -> Double.compare(b.cost, a.cost));
         pq.offer(new Node(start, 1.0));
         distance[start] = 1.0;
 
