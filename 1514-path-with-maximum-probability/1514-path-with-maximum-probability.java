@@ -40,7 +40,7 @@ class Solution {
             Node curNode = pq.poll();
             if (curNode.to == end) return curNode.cost;
 
-            for(Node nextNode : graph.get(curNode.to)){
+            for(Node nextNode : graph.getOrDefault(curNode.to, Collections.emptyList())){
                 double nextCost = nextNode.cost * curNode.cost;
                 if(nextCost > distance[nextNode.to]){
                     pq.add(new Node(nextNode.to, nextCost));
