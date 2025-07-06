@@ -1,27 +1,33 @@
-import javax.lang.model.type.ArrayType;
-import java.util.*;
+import java.io.*;
 
 public class Main {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder sb = new StringBuilder();
 
-        int T = sc.nextInt();
+        int T = Integer.parseInt(br.readLine());
 
-        for(int j = 0; j < T; j++){
-            int N = sc.nextInt();
-            int[][] dp = new int[41][2];
+        while(T-- > 0){
+            int N = Integer.parseInt(br.readLine());
 
-            dp[0][0] = 1;
-            dp[1][0] = 0;
-            dp[0][1] = 0;
-            dp[1][1] = 1;
-
-            for(int i = 2; i <= N; i++){
-                dp[i][0] = dp[i - 1][0] + dp[i - 2][0];
-                dp[i][1] = dp[i - 1][1] + dp[i - 2][1];
+            if(N == 0){
+                sb.append("1 0").append("\n");
+                continue;
+            }
+            else if(N == 1){
+                sb.append("0 1").append("\n");
+                continue;
             }
 
-            System.out.println(dp[N][0] + " " + dp[N][1]);
+            int[] dp = new int[N];
+            dp[0] = 1;
+            dp[1] = 2;
+
+            for(int i = 2; i < N; i++){
+                dp[i] = dp[i - 2] + dp[i - 1];
+            }
+            sb.append(dp[N - 1] - dp[N - 2]).append(" ").append(dp[N - 2] ).append("\n");
         }
+        System.out.println(sb);
     }
 }
