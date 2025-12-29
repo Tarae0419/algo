@@ -3,7 +3,7 @@ class Solution {
         int answer = 0;
         
         for(int i = 0; i < absolutes.length; i++){
-            answer = signs[i] == true ? (answer + absolutes[i]) : (answer + (-1) * absolutes[i]);
+            answer = signs[i] ? (answer + absolutes[i]) : (answer + (-1) * absolutes[i]);
         }
         
         return answer;
