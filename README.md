@@ -23,8 +23,21 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tarae0419/algo/tree/main/0015-3sum/) | Medium |
+| [0567-permutation-in-string](https://github.com/Tarae0419/algo/tree/main/0567-permutation-in-string/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tarae0419/algo/tree/main/0015-3sum/) | Medium |
+## Hash Table
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0567-permutation-in-string](https://github.com/Tarae0419/algo/tree/main/0567-permutation-in-string/) | Medium |
+## String
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0567-permutation-in-string](https://github.com/Tarae0419/algo/tree/main/0567-permutation-in-string/) | Medium |
+## Sliding Window
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0567-permutation-in-string](https://github.com/Tarae0419/algo/tree/main/0567-permutation-in-string/) | Medium |
 <!---LeetCode Topics End-->
