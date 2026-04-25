@@ -7,6 +7,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0258-add-digits](https://github.com/Tarae0419/algo/tree/main/0258-add-digits/) | Easy |
+| [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -23,6 +24,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | [0239-sliding-window-maximum](https://github.com/Tarae0419/algo/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Tarae0419/algo/tree/main/0496-next-greater-element-i/) | Easy |
 | [0946-validate-stack-sequences](https://github.com/Tarae0419/algo/tree/main/0946-validate-stack-sequences/) | Medium |
+| [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -32,6 +34,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tarae0419/algo/tree/main/0015-3sum/) | Medium |
+| [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,6 +57,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/Tarae0419/algo/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Monotonic Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -67,4 +71,16 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0496-next-greater-element-i](https://github.com/Tarae0419/algo/tree/main/0496-next-greater-element-i/) | Easy |
+## Divide and Conquer
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
+## Geometry
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
+## Quickselect
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
 <!---LeetCode Topics End-->
