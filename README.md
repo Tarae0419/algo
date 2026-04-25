@@ -21,6 +21,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tarae0419/algo/tree/main/0015-3sum/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Tarae0419/algo/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0496-next-greater-element-i](https://github.com/Tarae0419/algo/tree/main/0496-next-greater-element-i/) | Easy |
 | [0946-validate-stack-sequences](https://github.com/Tarae0419/algo/tree/main/0946-validate-stack-sequences/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
@@ -34,6 +35,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/Tarae0419/algo/tree/main/0496-next-greater-element-i/) | Easy |
 | [0567-permutation-in-string](https://github.com/Tarae0419/algo/tree/main/0567-permutation-in-string/) | Medium |
 ## String
 | Problem Name | Difficulty |
@@ -59,5 +61,10 @@ Java를 이용해 백준에서 코딩테스트 준비
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/Tarae0419/algo/tree/main/0496-next-greater-element-i/) | Easy |
 | [0946-validate-stack-sequences](https://github.com/Tarae0419/algo/tree/main/0946-validate-stack-sequences/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0496-next-greater-element-i](https://github.com/Tarae0419/algo/tree/main/0496-next-greater-element-i/) | Easy |
 <!---LeetCode Topics End-->
