@@ -11,6 +11,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0258-add-digits](https://github.com/Tarae0419/algo/tree/main/0258-add-digits/) | Easy |
+| [0946-validate-stack-sequences](https://github.com/Tarae0419/algo/tree/main/0946-validate-stack-sequences/) | Medium |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -20,6 +21,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tarae0419/algo/tree/main/0015-3sum/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Tarae0419/algo/tree/main/0239-sliding-window-maximum/) | Hard |
+| [0946-validate-stack-sequences](https://github.com/Tarae0419/algo/tree/main/0946-validate-stack-sequences/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,4 +56,8 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0239-sliding-window-maximum](https://github.com/Tarae0419/algo/tree/main/0239-sliding-window-maximum/) | Hard |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0946-validate-stack-sequences](https://github.com/Tarae0419/algo/tree/main/0946-validate-stack-sequences/) | Medium |
 <!---LeetCode Topics End-->
