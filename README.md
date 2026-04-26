@@ -22,6 +22,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tarae0419/algo/tree/main/0015-3sum/) | Medium |
+| [0179-largest-number](https://github.com/Tarae0419/algo/tree/main/0179-largest-number/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Tarae0419/algo/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Tarae0419/algo/tree/main/0496-next-greater-element-i/) | Easy |
 | [0775-global-and-local-inversions](https://github.com/Tarae0419/algo/tree/main/0775-global-and-local-inversions/) | Medium |
@@ -37,6 +38,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0015-3sum](https://github.com/Tarae0419/algo/tree/main/0015-3sum/) | Medium |
+| [0179-largest-number](https://github.com/Tarae0419/algo/tree/main/0179-largest-number/) | Medium |
 | [0912-sort-an-array](https://github.com/Tarae0419/algo/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Hash Table
@@ -47,6 +49,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0179-largest-number](https://github.com/Tarae0419/algo/tree/main/0179-largest-number/) | Medium |
 | [0567-permutation-in-string](https://github.com/Tarae0419/algo/tree/main/0567-permutation-in-string/) | Medium |
 ## Sliding Window
 | Problem Name | Difficulty |
@@ -105,4 +108,8 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0912-sort-an-array](https://github.com/Tarae0419/algo/tree/main/0912-sort-an-array/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0179-largest-number](https://github.com/Tarae0419/algo/tree/main/0179-largest-number/) | Medium |
 <!---LeetCode Topics End-->
