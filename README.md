@@ -25,6 +25,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 | [0179-largest-number](https://github.com/Tarae0419/algo/tree/main/0179-largest-number/) | Medium |
 | [0239-sliding-window-maximum](https://github.com/Tarae0419/algo/tree/main/0239-sliding-window-maximum/) | Hard |
 | [0455-assign-cookies](https://github.com/Tarae0419/algo/tree/main/0455-assign-cookies/) | Easy |
+| [0493-reverse-pairs](https://github.com/Tarae0419/algo/tree/main/0493-reverse-pairs/) | Hard |
 | [0496-next-greater-element-i](https://github.com/Tarae0419/algo/tree/main/0496-next-greater-element-i/) | Easy |
 | [0775-global-and-local-inversions](https://github.com/Tarae0419/algo/tree/main/0775-global-and-local-inversions/) | Medium |
 | [0912-sort-an-array](https://github.com/Tarae0419/algo/tree/main/0912-sort-an-array/) | Medium |
@@ -85,6 +86,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Tarae0419/algo/tree/main/0493-reverse-pairs/) | Hard |
 | [0912-sort-an-array](https://github.com/Tarae0419/algo/tree/main/0912-sort-an-array/) | Medium |
 | [0973-k-closest-points-to-origin](https://github.com/Tarae0419/algo/tree/main/0973-k-closest-points-to-origin/) | Medium |
 ## Geometry
@@ -98,6 +100,7 @@ Java를 이용해 백준에서 코딩테스트 준비
 ## Merge Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Tarae0419/algo/tree/main/0493-reverse-pairs/) | Hard |
 | [0912-sort-an-array](https://github.com/Tarae0419/algo/tree/main/0912-sort-an-array/) | Medium |
 ## Bucket Sort
 | Problem Name | Difficulty |
@@ -116,4 +119,20 @@ Java를 이용해 백준에서 코딩테스트 준비
 | ------- | ------- |
 | [0179-largest-number](https://github.com/Tarae0419/algo/tree/main/0179-largest-number/) | Medium |
 | [0455-assign-cookies](https://github.com/Tarae0419/algo/tree/main/0455-assign-cookies/) | Easy |
+## Binary Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Tarae0419/algo/tree/main/0493-reverse-pairs/) | Hard |
+## Binary Indexed Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Tarae0419/algo/tree/main/0493-reverse-pairs/) | Hard |
+## Segment Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Tarae0419/algo/tree/main/0493-reverse-pairs/) | Hard |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0493-reverse-pairs](https://github.com/Tarae0419/algo/tree/main/0493-reverse-pairs/) | Hard |
 <!---LeetCode Topics End-->
