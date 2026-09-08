@@ -135,4 +135,8 @@ Java를 이용해 백준에서 코딩테스트 준비
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0493-reverse-pairs](https://github.com/Tarae0419/algo/tree/main/0493-reverse-pairs/) | Hard |
+## Range Minimum/Maximum Query
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0239-sliding-window-maximum](https://github.com/Tarae0419/algo/tree/main/0239-sliding-window-maximum/) | Hard |
 <!---LeetCode Topics End-->
