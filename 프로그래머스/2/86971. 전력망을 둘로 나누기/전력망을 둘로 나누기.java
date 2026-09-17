@@ -1,50 +1,50 @@
 import java.util.*;
+
 class Solution {
     public int solution(int n, int[][] wires) {
-        List<List<Integer>> tree = new ArrayList<>();
         int answer = Integer.MAX_VALUE;
         
-        for(int i = 0; i <= n; i++){
-            tree.add(new ArrayList<>());
-        }
-        
-        for(int[] wire : wires){
-            int a = wire[0];
-            int b = wire[1];
+        for(int i = 0; i < wires.length; i++){
             
-            tree.get(a).add(b);
-            tree.get(b).add(a);
-        }
-        
-        for(int[] wire : wires){
-            int a = wire[0];
-            int b = wire[1];
+            Map<Integer, List<Integer>> map = new HashMap<>();
+            for(int j = 1; j <= n; j++) map.put(j, new ArrayList<>());
             
-            tree.get(a).remove(Integer.valueOf(b));
-            tree.get(b).remove(Integer.valueOf(a));
-            
+            for (int j = 0; j < wires.length; j++){
+                if (j == i) continue;
+                
+                int from = wires[j][0];
+                int to = wires[j][1];
+                map.get(from).add(to);
+                map.get(to).add(from);
+            }
+
             boolean[] visited = new boolean[n + 1];
-            
-            int num = n -  2 * dfs(1, visited, tree);
-            
-            if(num < 0) answer = Math.min(answer, -num);
-            else answer = Math.min(answer, num);
-            
-            tree.get(a).add(b);
-            tree.get(b).add(a);
+            int count = bfs(wires[i][0], visited, map);
+
+            int diff = Math.abs(count - (n - count));
+            answer = Math.min(answer, diff);
         }
+        
         return answer;
     }
-    public static int dfs(int start, boolean[] visited, List<List<Integer>> tree){
+    
+    public int bfs(int start, boolean[] visited, Map<Integer, List<Integer>> map){
+        Deque<Integer> dq = new ArrayDeque<>();
+        dq.add(start);
         visited[start] = true;
-        int count = 1;
+        int count = 0;
         
-        for(int nextNode : tree.get(start)){
-            if(visited[nextNode]) continue;
+        while(!dq.isEmpty()){
+            int curNode = dq.poll();
+            count++;
             
-            count += dfs(nextNode, visited, tree);
+            for(int nextNode : map.get(curNode)){
+                if(!visited[nextNode]){
+                    visited[nextNode] = true;
+                    dq.addLast(nextNode);
+                }
+            }
         }
-        
         return count;
     }
 }
